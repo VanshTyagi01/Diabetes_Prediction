@@ -54,13 +54,13 @@ testing_data_accuracy = accuracy_score(X_test_prediction,Y_test)
 
 print("Enter the following Details as per test report->")
 preg = float(input("No of Preganancies(else 0): "))
-gulcose = float(input("Enter Gulcose Level: "))
-bp = float(input("Enter Blood Pressure: "))
-st = float(input("Enter Skin Thickness: "))
+gulcose = float(input("Enter Gulcose Level (mg/dL): "))
+bp = float(input("Enter Blood Pressure (mm Hg): "))
+st = float(input("Enter Skin Thickness (mm): "))
 insulin = float(input("Enter Insulin: "))
 bmi = float(input("Enter the BMI: "))
 dpf = float(input("Enter DiabetesPedigreeFunction: "))
-age = float(input("Enter Your Age: "))
+age = float(input("Enter Your Age (Years): "))
 input_data = [preg,gulcose,bp,st,insulin,bmi,dpf,age]
 
 # changing input_data to numpy array
