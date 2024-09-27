@@ -17,7 +17,7 @@ Procedure -------------<br>
     &emsp;&emsp;The data is split into training and testing sets to evaluate the model’s performance.<br>
     &emsp;&emsp;An SVM classifier with a linear kernel is trained on the training data.<br>
     
-3-Model Evaluation:<br>
+4-Model Evaluation:<br>
     &emsp;&emsp;The accuracy of the model is evaluated on both the training and testing datasets to ensure it 
     generalizes well to unseen data.<br>
     
